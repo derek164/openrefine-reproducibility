@@ -1,6 +1,12 @@
 # Project-specific
-*data/
-!*/data/*.csv
+app/*
+!app/*.py
+!app/data
+app/data/*
+!app/data/*.csv
+
+# *data/
+# !*/data/*.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
