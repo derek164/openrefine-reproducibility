@@ -11,8 +11,11 @@ class RefineServerHelper:
         """
         List OpenRefine projects
         """
+        projects = {
+            k: v for k, v in self.refine_server.list_projects().items() if v is not None
+        }
         return (
-            pd.DataFrame(self.refine_server.list_projects())
+            pd.DataFrame(projects)
             .transpose()
             .reset_index()
             .rename({"index": "ProjectId"}, axis=1)
@@ -119,5 +122,13 @@ if __name__ == "__main__":
 
     # print(refine_helper.search_projects("wine").iloc[0].to_string(), end="\n\n")
     refine_helper.open_project_byname("wine")
-    print("Rows: {}".format(refine_helper.get_number_rows()))
-    print("Columns: {}".format(refine_helper.get_number_columns()))
+    print("Fields: {}".format([x.encode("utf-8") for x in wine_project.columns]))
+    print(
+        "Dimensions: [{rows}, {cols}]".format(
+            rows=refine_helper.get_number_rows(),
+            cols=refine_helper.get_number_columns(),
+        ),
+        end="\n\n",
+    )
+
+    print(refine_helper.get_rows(start=0, limit=1).iloc[0].to_string(), end="\n\n")
