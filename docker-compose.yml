@@ -16,9 +16,7 @@ services:
       - REFINE_EXTRA_OPTS=refine.headless=true
     restart: unless-stopped
   openrefine-client:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: derekz325/openrefine-python-client
     container_name: openrefine-client
     entrypoint: /bin/bash
     stdin_open: true
