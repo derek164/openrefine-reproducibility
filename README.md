@@ -1,4 +1,5 @@
 # openrefine-reproducibility
+Based on [nikolausn/OpenRefine-Reproducibility-Demo](https://github.com/nikolausn/OpenRefine-Reproducibility-Demo/blob/master/Python_OpenRefine_Demo.ipynb)
 
 ## Dependencies
 [Docker](https://www.docker.com/products/docker-desktop/)
