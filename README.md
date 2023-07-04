@@ -1,5 +1,6 @@
 # openrefine-reproducibility
-Based on [nikolausn/OpenRefine-Reproducibility-Demo](https://github.com/nikolausn/OpenRefine-Reproducibility-Demo/blob/master/Python_OpenRefine_Demo.ipynb)
+Provided a raw `.csv` file, apply OpenRefine cleaning steps specified in `.json` format!  
+*Note*: Based on [nikolausn/OpenRefine-Reproducibility-Demo](https://github.com/nikolausn/OpenRefine-Reproducibility-Demo/blob/master/Python_OpenRefine_Demo.ipynb)
 
 <div><b>Table of Contents</b></div>
 
