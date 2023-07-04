@@ -37,5 +37,5 @@ docker-compose run --rm -it --entrypoint python openrefine-client /app/main.py
 
 ### ER Diagram
 <p align='center'>
-    <img src='img/ER_Wine_Reviews.svg' width='700'>
+    <img src='img/ER_Wine_Reviews.svg' width='600'>
 </p>
