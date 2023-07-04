@@ -1,6 +1,7 @@
 # openrefine-reproducibility
 Based on [nikolausn/OpenRefine-Reproducibility-Demo](https://github.com/nikolausn/OpenRefine-Reproducibility-Demo/blob/master/Python_OpenRefine_Demo.ipynb)
 
+**Table of Contents**
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Data](#data)
