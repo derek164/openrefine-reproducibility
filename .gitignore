@@ -4,6 +4,7 @@ app/*
 !app/data
 app/data/*
 !app/data/*.csv
+*.DS_Store
 
 # *data/
 # !*/data/*.csv
