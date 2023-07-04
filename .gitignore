@@ -4,6 +4,7 @@ app/*
 !app/data
 app/data/*
 !app/data/*.csv
+!app/recipe
 app/recipe/*
 !app/recipe/*.json
 *.DS_Store
