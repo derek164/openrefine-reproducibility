@@ -133,21 +133,22 @@ class RefineServerHelper:
         print(self.get_rows(start=0, limit=1).iloc[0].to_string(), end="\n\n")
 
 
-if __name__ == "__main__":
-    print(refine.RefineServer().get_version(), end="\n\n")
-
-    refine_server = refine.Refine(refine.RefineServer())
-    refine_helper = RefineServerHelper(refine_server)
-
+def apply_wine_recipe(refine_helper):
     refine_helper.delete_project_byname("wine")
     wine_project = refine_server.new_project(
-        project_file="/app/data/wine-raw.csv", project_name="wine", separator=","
+        project_file="/app/data/wine_dirty.csv", project_name="wine", separator=","
     )
 
     # print(refine_helper.search_projects("wine").iloc[0].to_string(), end="\n\n")
     refine_helper.open_project_byname("wine")
     refine_helper.display_project_summary()
 
+    wine_project.apply_operations("/app/recipe/wine_recipe.json")
+    with open("/app/data/wine_clean.csv", "wb") as f:
+        f.write(wine_project.export(export_format="csv").read())
+
+
+def apply_airbnb_recipe(refine_helper):
     refine_helper.delete_project_byname("airbnb")
     airbnb_project = refine_server.new_project(
         project_file="/app/data/airbnb_dirty.csv", project_name="airbnb", separator=","
@@ -160,3 +161,13 @@ if __name__ == "__main__":
     airbnb_project.apply_operations("/app/recipe/airbnb_recipe.json")
     with open("/app/data/airbnb_clean.csv", "wb") as f:
         f.write(airbnb_project.export(export_format="csv").read())
+
+
+if __name__ == "__main__":
+    print(refine.RefineServer().get_version(), end="\n\n")
+
+    refine_server = refine.Refine(refine.RefineServer())
+    refine_helper = RefineServerHelper(refine_server)
+
+    apply_wine_recipe(refine_helper)
+    apply_airbnb_recipe(refine_helper)

@@ -1,0 +1,2405 @@
+[
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "title",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "Charles Heidsieck NV Réserve Brut Rosé  (Champagne)",
+                    "Charles Heidsieck NV Rosé Réserve Brut  (Champagne)",
+                    "Charles Heidsieck NV Brut Rosé Réserve  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Charles Heidsieck NV Réserve Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Conde de Subirats NV Brut Rose Sparkling (Cava)",
+                    "Conde de Subirats NV Brut Rosé Sparkling (Cava)",
+                    "Conde de Subirats NV Cava Brut Rosé Sparkling (Cava)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Conde de Subirats NV Brut Rose Sparkling (Cava)"
+            },
+            {
+                "from": [
+                    "Jacquart NV Rosé Mosaïque Brut  (Champagne)",
+                    "Jacquart NV Brut Mosaïque Rosé  (Champagne)",
+                    "Jacquart NV Mosaïque Rosé Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Jacquart NV Rosé Mosaïque Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Champagne Gremillet NV Sélection Brut  (Champagne)",
+                    "Gremillet NV Selection Brut  (Champagne)",
+                    "Gremillet NV Sélection Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Champagne Gremillet NV Sélection Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Barefoot NV Pinot Grigio  (California)",
+                    "Barefoot NV Pinot Grigio (California)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Barefoot NV Pinot Grigio  (California)"
+            },
+            {
+                "from": [
+                    "Pommery NV Apanage Brut Rosé  (Champagne)",
+                    "Pommery NV Rosé Apanage Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Pommery NV Apanage Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Joseph Cattin NV Brut Sparkling (Crémant d'Alsace)",
+                    "Joseph Cattin NV Brut Cattin Sparkling (Crémant d'Alsace)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Joseph Cattin NV Brut Sparkling (Crémant d'Alsace)"
+            },
+            {
+                "from": [
+                    "Lenné Estate 2014 Estate Pinot Noir",
+                    "Lenné Estate 2014 Pinot Noir"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Lenné Estate 2014 Estate Pinot Noir"
+            },
+            {
+                "from": [
+                    "Colombo 2011 Silvì Metodo Classico Riserva Rosé Pinot Nero (Alta Langa)",
+                    "Colombo 2011 Silvì Rosé Riserva Metodo Classico Pinot Nero (Alta Langa)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Colombo 2011 Silvì Metodo Classico Riserva Rosé Pinot Nero (Alta Langa)"
+            },
+            {
+                "from": [
+                    "Pommery NV POP Extra Dry  (Champagne)",
+                    "Pommery NV Pop Extra Dry  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Pommery NV POP Extra Dry  (Champagne)"
+            },
+            {
+                "from": [
+                    "Hoopla 2013 Chardonnay (Yountville)",
+                    "Hoopla 2013 Yountville Chardonnay (Yountville)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Hoopla 2013 Chardonnay (Yountville)"
+            },
+            {
+                "from": [
+                    "Canard-Duchêne NV Charles VII Grande Cuvée de la Rose Brut Rosé  (Champagne)",
+                    "Canard-Duchêne NV Charles VII Grande Cuvée de la Rosé Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Canard-Duchêne NV Charles VII Grande Cuvée de la Rose Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Jean-Luc Baldès 2008 Clos Triguedina Baldès Red (Cahors)",
+                    "Jean-Luc Baldès 2008 Clos Triguedina Red (Cahors)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Jean-Luc Baldès 2008 Clos Triguedina Baldès Red (Cahors)"
+            },
+            {
+                "from": [
+                    "Joseph Perrier NV Cuvée Royale Brut Rosé  (Champagne)",
+                    "Joseph Perrier NV Cuvée Brut Royale Rosé  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Joseph Perrier NV Cuvée Royale Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Cooperativa Reguengos de Monsaraz 2012 Monsaraz Red (Alentejo)",
+                    "Cooperativa Reguengos de Monsaraz 2012 Reguengos Red (Alentejo)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Cooperativa Reguengos de Monsaraz 2012 Monsaraz Red (Alentejo)"
+            },
+            {
+                "from": [
+                    "Duval-Leroy NV Prestige Premier Cru Brut Rosé  (Champagne)",
+                    "Duval-Leroy NV Rosé Prestige Premier Cru Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Duval-Leroy NV Prestige Premier Cru Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Castello di Montegiove 2009 Mi.Mo.So.  (Orvieto)",
+                    "Castello di Montegiove 2009 Mimoso  (Orvieto)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Castello di Montegiove 2009 Mi.Mo.So.  (Orvieto)"
+            },
+            {
+                "from": [
+                    "Ramos-Pinto NV Adriano Reserva White  (Port)",
+                    "Ramos-Pinto NV Adriano White Reserva  (Port)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Ramos-Pinto NV Adriano Reserva White  (Port)"
+            },
+            {
+                "from": [
+                    "Gloria Ferrer NV VA de VI Ultra Cuvée Sparkling (Sonoma County)",
+                    "Gloria Ferrer NV Va de Vi Ultra Cuvée Sparkling (Sonoma County)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Gloria Ferrer NV VA de VI Ultra Cuvée Sparkling (Sonoma County)"
+            },
+            {
+                "from": [
+                    "Vranken 2000 Demoiselle Millésimé Premier Cru Brut  (Champagne)",
+                    "Vranken 2000 Demoiselle Premier Cru Millésimé Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Vranken 2000 Demoiselle Millésimé Premier Cru Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Foss Marai NV Strada di Guia, 109 Brut  (Conegliano Valdobbiadene Prosecco Superiore)",
+                    "Foss Marai NV Strada di Guia 109 Brut  (Conegliano Valdobbiadene Prosecco Superiore)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Foss Marai NV Strada di Guia, 109 Brut  (Conegliano Valdobbiadene Prosecco Superiore)"
+            },
+            {
+                "from": [
+                    "Juvé y Camps NV Brut Rosé Pinot Noir (Cava)",
+                    "Juvé y Camps NV Pinot Noir Brut Rosé Pinot Noir (Cava)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Juvé y Camps NV Brut Rosé Pinot Noir (Cava)"
+            },
+            {
+                "from": [
+                    "Pazo de Barrantes 2007 Albariño (Rías Baixas)",
+                    "Pazo de Barrantes 2007 Pazo Barrantes Albariño (Rías Baixas)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Pazo de Barrantes 2007 Albariño (Rías Baixas)"
+            },
+            {
+                "from": [
+                    "Bodegas Dios Baco S.L. NV Oloroso Sherry (Jerez)",
+                    "Bodegas Dios Baco S.L. NV Oloroso Sherry Sherry (Jerez)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bodegas Dios Baco S.L. NV Oloroso Sherry (Jerez)"
+            },
+            {
+                "from": [
+                    "Soutiran NV Alexandre Premier Cru Brut  (Champagne)",
+                    "Soutiran NV Brut Premier Cru Alexandre  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Soutiran NV Alexandre Premier Cru Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Center of Effort 2014 Chardonnay (Edna Valley)",
+                    "Center of Effort 2014 Effort Chardonnay (Edna Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Center of Effort 2014 Chardonnay (Edna Valley)"
+            },
+            {
+                "from": [
+                    "Bodegas Valdemar 2005 Inspiración  (Rioja)",
+                    "Bodegas Valdemar 2005 Inspiración Valdemar  (Rioja)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bodegas Valdemar 2005 Inspiración  (Rioja)"
+            },
+            {
+                "from": [
+                    "Korbel NV Chardonnay (California)",
+                    "Korbel NV Chardonnay  (California)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Korbel NV Chardonnay (California)"
+            },
+            {
+                "from": [
+                    "Longridge 1999 Bay View Merlot (Stellenbosch)",
+                    "Longridge Bay View 1999 Merlot (Stellenbosch)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Longridge 1999 Bay View Merlot (Stellenbosch)"
+            },
+            {
+                "from": [
+                    "Quinta de Porrais 2012 Porrais Red (Douro)",
+                    "Quinta de Porrais 2012 Red (Douro)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Quinta de Porrais 2012 Porrais Red (Douro)"
+            },
+            {
+                "from": [
+                    "Château Monbadon 2010  Castillon Côtes de Bordeaux",
+                    "Château de Monbadon 2010  Castillon Côtes de Bordeaux"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Château Monbadon 2010  Castillon Côtes de Bordeaux"
+            },
+            {
+                "from": [
+                    "Le Colture NV Cartizze  (Prosecco Superiore di Cartizze)",
+                    "Le Colture NV  Prosecco Superiore di Cartizze"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Le Colture NV Cartizze  (Prosecco Superiore di Cartizze)"
+            },
+            {
+                "from": [
+                    "Bodegas Dios Baco S.L. NV Cream Sherry (Jerez)",
+                    "Bodegas Dios Baco S.L. NV Cream Sherry Sherry (Jerez)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bodegas Dios Baco S.L. NV Cream Sherry (Jerez)"
+            },
+            {
+                "from": [
+                    "Château Guilhem 2015 Pot De Vin Syrah Rosé (Pays d'Oc)",
+                    "Château Guilhem 2015 Pot de Vin Syrah Rosé (Pays d'Oc)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Château Guilhem 2015 Pot De Vin Syrah Rosé (Pays d'Oc)"
+            },
+            {
+                "from": [
+                    "Scharffenberger NV Brut NV Sparkling (Mendocino County)",
+                    "Scharffenberger NV Brut Sparkling (Mendocino County)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Scharffenberger NV Brut NV Sparkling (Mendocino County)"
+            },
+            {
+                "from": [
+                    "Center of Effort 2014 Effort Pinot Noir (Edna Valley)",
+                    "Center of Effort 2014 Pinot Noir (Edna Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Center of Effort 2014 Effort Pinot Noir (Edna Valley)"
+            },
+            {
+                "from": [
+                    "Canoe Ridge 2014 Limited Edition Canyon Vineyard Ranch Cinsault (Yakima Valley)",
+                    "Canoe Ridge 2014 Limited Edition Canyon Vineyard Ranch Cinsault Cinsault (Yakima Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Canoe Ridge 2014 Limited Edition Canyon Vineyard Ranch Cinsault (Yakima Valley)"
+            },
+            {
+                "from": [
+                    "Center of Effort 2009 Effort Pinot Noir (Edna Valley)",
+                    "Center of Effort 2009 Pinot Noir (Edna Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Center of Effort 2009 Effort Pinot Noir (Edna Valley)"
+            },
+            {
+                "from": [
+                    "Taittinger NV Prélude Grands Crus Brut  (Champagne)",
+                    "Taittinger NV Prélude Brut Grands Crus  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Taittinger NV Prélude Grands Crus Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Boizel NV Blanc de Blancs Brut Chardonnay (Champagne)",
+                    "Boizel NV Chardonnay Blanc de Blancs Brut Chardonnay (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Boizel NV Blanc de Blancs Brut Chardonnay (Champagne)"
+            },
+            {
+                "from": [
+                    "Mercer 2012 Dead Canyon Vineyard Reserve Syrah (Horse Heaven Hills)",
+                    "Mercer 2012 Reserve Dead Canyon Vineyard Syrah (Horse Heaven Hills)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Mercer 2012 Dead Canyon Vineyard Reserve Syrah (Horse Heaven Hills)"
+            },
+            {
+                "from": [
+                    "Conde de Subirats NV Brut Sparkling (Cava)",
+                    "Conde de Subirats NV Cava Brut Sparkling (Cava)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Conde de Subirats NV Brut Sparkling (Cava)"
+            },
+            {
+                "from": [
+                    "Foss Marai NV Strada di Guia 109 Extra Dry  (Conegliano Valdobbiadene Prosecco Superiore)",
+                    "Foss Marai NV Strada di Guia, 109 Extra Dry  (Conegliano Valdobbiadene Prosecco Superiore)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Foss Marai NV Strada di Guia 109 Extra Dry  (Conegliano Valdobbiadene Prosecco Superiore)"
+            },
+            {
+                "from": [
+                    "Apaltagua NV Costero Extra Brut Sparkling (San Antonio)",
+                    "Apaltagua NV Extra Brut Costero Sparkling (San Antonio)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Apaltagua NV Costero Extra Brut Sparkling (San Antonio)"
+            },
+            {
+                "from": [
+                    "14 Hands NV Brut Méthode Champenoise Sparkling (Columbia Valley (WA))",
+                    "14 Hands NV Brut Methode Champenoise Sparkling (Columbia Valley (WA))"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "14 Hands NV Brut Méthode Champenoise Sparkling (Columbia Valley (WA))"
+            },
+            {
+                "from": [
+                    "Mont Marçal NV Extremarium Brut Reserva Sparkling (Cava)",
+                    "Mont Marçal NV Brut Reserva Extremarium Sparkling (Cava)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Mont Marçal NV Extremarium Brut Reserva Sparkling (Cava)"
+            },
+            {
+                "from": [
+                    "Moët & Chandon NV Impérial Brut Rosé  (Champagne)",
+                    "Moët & Chandon NV Rosé Impérial Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Moët & Chandon NV Impérial Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Marchesi di Barolo 2007  Barolo",
+                    "Marchesi di Barolo 2007 Barolo di Barolo  (Barolo)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Marchesi di Barolo 2007  Barolo"
+            },
+            {
+                "from": [
+                    "Willm NV Brut Prestige Sparkling (Crémant d'Alsace)",
+                    "Willm NV Prestige Brut Sparkling (Crémant d'Alsace)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Willm NV Brut Prestige Sparkling (Crémant d'Alsace)"
+            },
+            {
+                "from": [
+                    "Longboard NV Brut Cuveé Sparkling (Russian River Valley)",
+                    "Longboard NV Brut Cuvée Sparkling (Russian River Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Longboard NV Brut Cuveé Sparkling (Russian River Valley)"
+            },
+            {
+                "from": [
+                    "Vollereaux NV Brut Rosé de Saignée Pinot Noir (Champagne)",
+                    "Vollereaux NV Rosé de Saignée Brut Pinot Noir (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Vollereaux NV Brut Rosé de Saignée Pinot Noir (Champagne)"
+            },
+            {
+                "from": [
+                    "Château de Bligny NV Blanc de Blancs Brut Chardonnay (Champagne)",
+                    "Château de Bligny NV Brut Blanc de Blancs Chardonnay (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Château de Bligny NV Blanc de Blancs Brut Chardonnay (Champagne)"
+            },
+            {
+                "from": [
+                    "De Bortoli NV Emeri Sparkling Sauvignon Blanc (South Eastern Australia)",
+                    "De Bortoli NV Emeri Sparkling Sauvignon Blanc Sparkling (South Eastern Australia)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "De Bortoli NV Emeri Sparkling Sauvignon Blanc (South Eastern Australia)"
+            },
+            {
+                "from": [
+                    "Ruggeri & C. NV Giall'Oro Extra Dry  (Valdobbiadene Prosecco Superiore)",
+                    "Ruggeri & C. NV Giall'oro Extra Dry  (Valdobbiadene Prosecco Superiore)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Ruggeri & C. NV Giall'Oro Extra Dry  (Valdobbiadene Prosecco Superiore)"
+            },
+            {
+                "from": [
+                    "Inniskillin 2007 Gold Icewine Vidal Blanc (Niagara Peninsula)",
+                    "Inniskillin 2007 Icewine Gold Vidal Blanc (Niagara Peninsula)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Inniskillin 2007 Gold Icewine Vidal Blanc (Niagara Peninsula)"
+            },
+            {
+                "from": [
+                    "Col Vetoraz Spumanti NV  Prosecco Superiore di Cartizze",
+                    "Col Vetoraz Spumanti NV Cartizze  (Prosecco Superiore di Cartizze)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Col Vetoraz Spumanti NV  Prosecco Superiore di Cartizze"
+            },
+            {
+                "from": [
+                    "Vice Versa 2005 Cabernet Sauvignon (Napa Valley)",
+                    "Vice Versa 2005 Versa Cabernet Sauvignon (Napa Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Vice Versa 2005 Cabernet Sauvignon (Napa Valley)"
+            },
+            {
+                "from": [
+                    "J Vineyards & Winery NV Brut Rosé Sparkling (Russian River Valley)",
+                    "J Vineyards & Winery NV Brut Rose Sparkling (Russian River Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "J Vineyards & Winery NV Brut Rosé Sparkling (Russian River Valley)"
+            },
+            {
+                "from": [
+                    "Drappier NV Brut Nature Zero Dosage Pinot Noir (Champagne)",
+                    "Drappier NV Pinot Noir Zéro Dosage Brut Nature Pinot Noir (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Drappier NV Brut Nature Zero Dosage Pinot Noir (Champagne)"
+            },
+            {
+                "from": [
+                    "Henri Abele NV Brut  (Champagne)",
+                    "Henri Abelé NV Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Henri Abele NV Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Chandon NV Etoile Rosé Sparkling (Napa-Sonoma)",
+                    "Chandon NV Étoile Rosé Sparkling (Napa-Sonoma)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Chandon NV Etoile Rosé Sparkling (Napa-Sonoma)"
+            },
+            {
+                "from": [
+                    "Valdo NV Cartizze Cuvée Viviana  (Prosecco Superiore di Cartizze)",
+                    "Valdo NV Cuvée Viviana  (Prosecco Superiore di Cartizze)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Valdo NV Cartizze Cuvée Viviana  (Prosecco Superiore di Cartizze)"
+            },
+            {
+                "from": [
+                    "Lavradores de Feitoria 2005 Tres Bagos Red (Douro)",
+                    "Lavradores de Feitoria 2005 Três Bagos Red (Douro)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Lavradores de Feitoria 2005 Tres Bagos Red (Douro)"
+            },
+            {
+                "from": [
+                    "Drappier NV Brut Rosé  (Champagne)",
+                    "Drappier NV Rosé Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Drappier NV Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Villa Sandi NV Cuvée Oris Dry  (Conegliano Valdobbiadene Prosecco Superiore)",
+                    "Villa Sandi NV Oris Cuvée Dry  (Conegliano Valdobbiadene Prosecco Superiore)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Villa Sandi NV Cuvée Oris Dry  (Conegliano Valdobbiadene Prosecco Superiore)"
+            },
+            {
+                "from": [
+                    "Tinhof 2011 Noir Red (Burgenland)",
+                    "Tinhof 2011 Tinhof Noir Red (Burgenland)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Tinhof 2011 Noir Red (Burgenland)"
+            },
+            {
+                "from": [
+                    "Paul Cheneau NV Blanc de Blancs Brut Sparkling (Cava)",
+                    "Paul Cheneau NV Brut Blanc de Blancs Sparkling (Cava)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Paul Cheneau NV Blanc de Blancs Brut Sparkling (Cava)"
+            },
+            {
+                "from": [
+                    "Zonin NV Cuvée 1821 Brut  (Prosecco)",
+                    "Zonin NV Cuvèe 1821 Brut  (Prosecco)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Zonin NV Cuvée 1821 Brut  (Prosecco)"
+            },
+            {
+                "from": [
+                    "Voirin-Jumel NV Blanc de Blancs Grand Cru Brut Chardonnay (Champagne)",
+                    "Voirin-Jumel NV Grand Cru Blanc de Blancs Brut Chardonnay (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Voirin-Jumel NV Blanc de Blancs Grand Cru Brut Chardonnay (Champagne)"
+            },
+            {
+                "from": [
+                    "Antonin Rodet 2011 A. Rodet  (Bourgogne)",
+                    "Antonin Rodet 2011 Bourgogne A. Rodet  (Bourgogne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Antonin Rodet 2011 A. Rodet  (Bourgogne)"
+            },
+            {
+                "from": [
+                    "Bellavista NV Cuvée Brut Sparkling (Franciacorta)",
+                    "Bellavista NV Cuvèe Brut Sparkling (Franciacorta)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bellavista NV Cuvée Brut Sparkling (Franciacorta)"
+            },
+            {
+                "from": [
+                    "Priest Ranch 2009 Somerston Sauvignon Blanc (Napa Valley)",
+                    "Somerston 2009 Priest Ranch Sauvignon Blanc (Napa Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Priest Ranch 2009 Somerston Sauvignon Blanc (Napa Valley)"
+            },
+            {
+                "from": [
+                    "Henriet-Bazin NV Grand Cru Brut Rosé  (Champagne)",
+                    "Henriet-Bazin NV Rosé Grand Cru Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Henriet-Bazin NV Grand Cru Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Quinta da Alorna 2015 Alvarinho-Viognier Reserva White (Tejo)",
+                    "Quinta da Alorna 2015 Reserva Alvarinho-Viognier White (Tejo)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Quinta da Alorna 2015 Alvarinho-Viognier Reserva White (Tejo)"
+            },
+            {
+                "from": [
+                    "Black Ridge 2008 San Andreas Red (Santa Cruz Mountains)",
+                    "Black Ridge 2008 San Andreas Red Red (Santa Cruz Mountains)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Black Ridge 2008 San Andreas Red (Santa Cruz Mountains)"
+            },
+            {
+                "from": [
+                    "Domaine François Schmitt 2014 Grand Cru Pfingstberg Paradis Riesling (Alsace)",
+                    "Domaine François Schmitt 2014 Pfingstberg Grand Cru Paradis Riesling (Alsace)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Domaine François Schmitt 2014 Grand Cru Pfingstberg Paradis Riesling (Alsace)"
+            },
+            {
+                "from": [
+                    "Pratsch 2015 Grüner Veltliner (Niederösterreich)",
+                    "Pratsch 2015 Veltliner Grüner Veltliner (Niederösterreich)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Pratsch 2015 Grüner Veltliner (Niederösterreich)"
+            },
+            {
+                "from": [
+                    "Psagot 2012 EDOM Red (Judean Hills)",
+                    "Psagot 2012 Edom Red (Judean Hills)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Psagot 2012 EDOM Red (Judean Hills)"
+            },
+            {
+                "from": [
+                    "Bailly-Lapierre NV Paul Delane Brut Réserve  (Crémant de Bourgogne)",
+                    "Bailly-Lapierre NV Paul Delane Réserve Brut  (Crémant de Bourgogne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bailly-Lapierre NV Paul Delane Brut Réserve  (Crémant de Bourgogne)"
+            },
+            {
+                "from": [
+                    "Bailly-Lapierre NV Brut Rosé  (Crémant de Bourgogne)",
+                    "Bailly-Lapierre NV Rosé Brut  (Crémant de Bourgogne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bailly-Lapierre NV Brut Rosé  (Crémant de Bourgogne)"
+            },
+            {
+                "from": [
+                    "Bellavista NV Gran Cuvée Satèn Brut Chardonnay (Franciacorta)",
+                    "Bellavista NV Gran Cuvée Satén Brut Chardonnay (Franciacorta)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bellavista NV Gran Cuvée Satèn Brut Chardonnay (Franciacorta)"
+            },
+            {
+                "from": [
+                    "De Sousa & Fils NV Blanc de Blancs Réserve Brut Chardonnay (Champagne)",
+                    "De Sousa & Fils NV Réserve Blanc de Blancs Brut Chardonnay (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "De Sousa & Fils NV Blanc de Blancs Réserve Brut Chardonnay (Champagne)"
+            },
+            {
+                "from": [
+                    "Boizel NV Ultime Extra Brut  (Champagne)",
+                    "Boizel NV Brut Ultime Extra Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Boizel NV Ultime Extra Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Arbéta 2013  Barbera d'Alba Superiore",
+                    "Arbéta 2013 Superiore  (Barbera d'Alba)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Arbéta 2013  Barbera d'Alba Superiore"
+            },
+            {
+                "from": [
+                    "Charles Ellner NV Brut Rosé  (Champagne)",
+                    "Charles Ellner NV Rosé Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Charles Ellner NV Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Henri Abele NV Brut Rosé  (Champagne)",
+                    "Henri Abelé NV Brut Rosé  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Henri Abele NV Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Laetitia NV Brut Cuvée Sparkling (Arroyo Grande Valley)",
+                    "Laetitia NV Brut Cuvee Sparkling (Arroyo Grande Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Laetitia NV Brut Cuvée Sparkling (Arroyo Grande Valley)"
+            },
+            {
+                "from": [
+                    "Sorelle Bronca NV Extra Dry Particella 68  (Prosecco di Valdobbiadene)",
+                    "Sorelle Bronca NV Particella 68 Extra Dry  (Prosecco di Valdobbiadene)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Sorelle Bronca NV Extra Dry Particella 68  (Prosecco di Valdobbiadene)"
+            },
+            {
+                "from": [
+                    "Rare NV 4 Grape Blend Rosé (California)",
+                    "Rare NV Grape 4 Blend Rosé (California)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Rare NV 4 Grape Blend Rosé (California)"
+            },
+            {
+                "from": [
+                    "Cantina del Castello 2015  Soave Classico",
+                    "Cantina del Castello 2015 Castello  (Soave Classico)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Cantina del Castello 2015  Soave Classico"
+            },
+            {
+                "from": [
+                    "Castello della Sala 2014 San Giovanni  (Orvieto Classico Superiore)",
+                    "Castello della Sala 2014 San Giovanni della Sala  (Orvieto Classico Superiore)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Castello della Sala 2014 San Giovanni  (Orvieto Classico Superiore)"
+            },
+            {
+                "from": [
+                    "Domaine de la Bégude 2013 La Bégude Red (Bandol)",
+                    "Domaine de la Bégude 2013 Red (Bandol)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Domaine de la Bégude 2013 La Bégude Red (Bandol)"
+            },
+            {
+                "from": [
+                    "Mirabelle NV Brut Sparkling (California)",
+                    "Mirabelle NV Mirabelle Brut Sparkling (California)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Mirabelle NV Brut Sparkling (California)"
+            },
+            {
+                "from": [
+                    "Viña Herminia 2014  Rioja",
+                    "Viña Herminia 2014 Herminia  (Rioja)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Viña Herminia 2014  Rioja"
+            },
+            {
+                "from": [
+                    "Martin Ray 2009 Red (California)",
+                    "Martin Ray 2009 Red Red (California)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Martin Ray 2009 Red (California)"
+            },
+            {
+                "from": [
+                    "Louis Roederer NV Brut Premier  (Champagne)",
+                    "Louis Roederer NV Premier Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Louis Roederer NV Brut Premier  (Champagne)"
+            },
+            {
+                "from": [
+                    "Bortolotti NV Extra Dry 47  (Prosecco di Valdobbiadene)",
+                    "Bortolotti NV Prosecco 47 Extra Dry  (Prosecco di Valdobbiadene)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bortolotti NV Extra Dry 47  (Prosecco di Valdobbiadene)"
+            },
+            {
+                "from": [
+                    "Besserat de Bellefon NV Cuvée des Moines Brut Blanc de Blancs Chardonnay (Champagne)",
+                    "Besserat de Bellefon NV Cuvée des Moines Blanc de Blancs Brut Chardonnay (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Besserat de Bellefon NV Cuvée des Moines Brut Blanc de Blancs Chardonnay (Champagne)"
+            },
+            {
+                "from": [
+                    "G. H. Mumm NV Brut Le Rosé  (Champagne)",
+                    "G. H. Mumm NV Brut le Rosé  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "G. H. Mumm NV Brut Le Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Heidsieck & Co Monopole NV Rose Top Brut  (Champagne)",
+                    "Heidsieck & Co Monopole NV Rose Top Rosé Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Heidsieck & Co Monopole NV Rose Top Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Boizel NV Brut Rosé  (Champagne)",
+                    "Boizel NV Rosé Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Boizel NV Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Jean Milan NV Blanc de Blancs Grand Cru Brut Chardonnay (Champagne)",
+                    "Jean Milan NV Grand Cru Blanc de Blancs Brut Chardonnay (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Jean Milan NV Blanc de Blancs Grand Cru Brut Chardonnay (Champagne)"
+            },
+            {
+                "from": [
+                    "Domaine de la Bégude 2014 La Bégude Red (Bandol)",
+                    "Domaine de la Bégude 2014 Red (Bandol)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Domaine de la Bégude 2014 La Bégude Red (Bandol)"
+            },
+            {
+                "from": [
+                    "Bertrand-Delespierre NV Premier Cru Brut  (Champagne)",
+                    "Bertrand-Delespierre NV Brut Premier Cru  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bertrand-Delespierre NV Premier Cru Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Adega Cooperativa do Cartaxo 2013 Coudel Mor Classico Red (Tejo)",
+                    "Adega Cooperativa do Cartaxo 2013 Coudel Mor Clássico Red (Tejo)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Adega Cooperativa do Cartaxo 2013 Coudel Mor Classico Red (Tejo)"
+            },
+            {
+                "from": [
+                    "Collet NV Brut Art Deco  (Champagne)",
+                    "Collet NV Brut Art Déco  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Collet NV Brut Art Deco  (Champagne)"
+            },
+            {
+                "from": [
+                    "Collet NV Dry Collection Privée Rosé  (Champagne)",
+                    "Collet NV Rosé Dry Collection Privée  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Collet NV Dry Collection Privée Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Korbel NV Brut Rosé Sparkling (California)",
+                    "Korbel NV Brut Rose Sparkling (California)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Korbel NV Brut Rosé Sparkling (California)"
+            },
+            {
+                "from": [
+                    "Perrier Jouët NV Blason Brut Rosé  (Champagne)",
+                    "Perrier Jouët NV Blason Rosé Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Perrier Jouët NV Blason Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Korbel 2008 Brut Made With Organically Grown Grapes Sparkling (California)",
+                    "Korbel 2008 Brut Made with Organically Grown Grapes Sparkling (California)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Korbel 2008 Brut Made With Organically Grown Grapes Sparkling (California)"
+            },
+            {
+                "from": [
+                    "Astoria NV  Prosecco Superiore di Cartizze",
+                    "Astoria NV Cartizze  (Prosecco Superiore di Cartizze)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Astoria NV  Prosecco Superiore di Cartizze"
+            },
+            {
+                "from": [
+                    "Convergence Zone 2013 Ciel du Cheval Vineyard Drizzle Pinot Gris (Red Mountain)",
+                    "Convergence Zone 2013 Drizzle Ciel du Cheval Vineyard Pinot Gris (Red Mountain)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Convergence Zone 2013 Ciel du Cheval Vineyard Drizzle Pinot Gris (Red Mountain)"
+            },
+            {
+                "from": [
+                    "Domaine Fernand Engel NV Tradition Brut Sparkling (Crémant d'Alsace)",
+                    "Domaine Fernand Engel NV Brut Tradition Sparkling (Crémant d'Alsace)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Domaine Fernand Engel NV Tradition Brut Sparkling (Crémant d'Alsace)"
+            },
+            {
+                "from": [
+                    "Henriet-Bazin NV Blanc de Blancs Premier Cru Brut Chardonnay (Champagne)",
+                    "Henriet-Bazin NV Premier Cru Blanc de Blancs Brut Chardonnay (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Henriet-Bazin NV Blanc de Blancs Premier Cru Brut Chardonnay (Champagne)"
+            },
+            {
+                "from": [
+                    "Lustau NV Amontillado Los Arcos Dry Sherry (Jerez)",
+                    "Lustau NV Dry Amontillado Los Arcos Sherry (Jerez)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Lustau NV Amontillado Los Arcos Dry Sherry (Jerez)"
+            },
+            {
+                "from": [
+                    "Bodegas Dios Baco S.L. NV Buleria Fino Sherry (Jerez)",
+                    "Bodegas Dios Baco S.L. NV Bulería Fino Sherry (Jerez)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bodegas Dios Baco S.L. NV Buleria Fino Sherry (Jerez)"
+            },
+            {
+                "from": [
+                    "Ayala NV Rosé Majeur Brut  (Champagne)",
+                    "Ayala NV Majeur Brut Rosé  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Ayala NV Rosé Majeur Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Dopff & Irion NV Brut Rosé Sparkling (Crémant d'Alsace)",
+                    "Dopff & Irion NV Rosé Brut Sparkling (Crémant d'Alsace)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Dopff & Irion NV Brut Rosé Sparkling (Crémant d'Alsace)"
+            },
+            {
+                "from": [
+                    "Jansz NV Premium Brut Rosé Sparkling (Tasmania)",
+                    "Jansz NV Premium Rosé Brut Sparkling (Tasmania)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Jansz NV Premium Brut Rosé Sparkling (Tasmania)"
+            },
+            {
+                "from": [
+                    "Pannier NV Brut Sélection  (Champagne)",
+                    "Pannier NV Sélection Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Pannier NV Brut Sélection  (Champagne)"
+            },
+            {
+                "from": [
+                    "Netzl 2014 Rubin Carnuntum Zweigelt (Carnuntum)",
+                    "Netzl 2014 Rubin Zweigelt (Carnuntum)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Netzl 2014 Rubin Carnuntum Zweigelt (Carnuntum)"
+            },
+            {
+                "from": [
+                    "Le Colture NV Dry  (Valdobbiadene Superiore di Cartizze)",
+                    "Le Colture NV Cartizze Dry  (Valdobbiadene Superiore di Cartizze)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Le Colture NV Dry  (Valdobbiadene Superiore di Cartizze)"
+            },
+            {
+                "from": [
+                    "Center of Effort 2009 Chardonnay (Edna Valley)",
+                    "Center of Effort 2009 Effort Chardonnay (Edna Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Center of Effort 2009 Chardonnay (Edna Valley)"
+            },
+            {
+                "from": [
+                    "Chanoine NV Tsarine Rosé Brut  (Champagne)",
+                    "Chanoine NV Tsarine Brut Rosé  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Chanoine NV Tsarine Rosé Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Château Laubes 2015  Bordeaux",
+                    "Château Laubès 2015  Bordeaux"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Château Laubes 2015  Bordeaux"
+            },
+            {
+                "from": [
+                    "Dr. Fischer 2012 Ockfener Bockstein Spatlëse Riesling (Mosel)",
+                    "Dr. Fischer 2012 Ockfener Bockstein Spätlese Riesling (Mosel)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Dr. Fischer 2012 Ockfener Bockstein Spatlëse Riesling (Mosel)"
+            },
+            {
+                "from": [
+                    "Mirabelle NV Brut Rosé Sparkling (North Coast)",
+                    "Mirabelle NV Mirabelle Brut Rosé Sparkling (North Coast)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Mirabelle NV Brut Rosé Sparkling (North Coast)"
+            },
+            {
+                "from": [
+                    "Bodegas Dios Baco S.L. NV Amontillado Sherry (Jerez)",
+                    "Bodegas Dios Baco S.L. NV Amontillado Sherry Sherry (Jerez)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bodegas Dios Baco S.L. NV Amontillado Sherry (Jerez)"
+            },
+            {
+                "from": [
+                    "Freixenet NV Elyssia Gran Cuvee Brut Sparkling (Cava)",
+                    "Freixenet NV Elyssia Gran Cuvée Brut Sparkling (Cava)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Freixenet NV Elyssia Gran Cuvee Brut Sparkling (Cava)"
+            },
+            {
+                "from": [
+                    "Zenato 2012 Metodo Classico Brut  (Lugana)",
+                    "Zenato 2012 Brut Metodo Classico  (Lugana)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Zenato 2012 Metodo Classico Brut  (Lugana)"
+            },
+            {
+                "from": [
+                    "Bortolotti NV Cartizze Dry  (Valdobbiadene Superiore di Cartizze)",
+                    "Bortolotti NV Dry  (Valdobbiadene Superiore di Cartizze)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bortolotti NV Cartizze Dry  (Valdobbiadene Superiore di Cartizze)"
+            },
+            {
+                "from": [
+                    "Bouvet-Ladubay NV Brut Excellence Chenin Blanc-Chardonnay (Crémant de Loire)",
+                    "Bouvet-Ladubay NV Excellence Brut Chenin Blanc-Chardonnay (Crémant de Loire)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bouvet-Ladubay NV Brut Excellence Chenin Blanc-Chardonnay (Crémant de Loire)"
+            },
+            {
+                "from": [
+                    "Laurent-Perrier NV Cuvée Brut Rosé  (Champagne)",
+                    "Laurent-Perrier NV Cuvée Rosé Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Laurent-Perrier NV Cuvée Brut Rosé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Laurent-Perrier 1999 Brut Millesimé  (Champagne)",
+                    "Laurent-Perrier 1999 Millesimé Brut  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Laurent-Perrier 1999 Brut Millesimé  (Champagne)"
+            },
+            {
+                "from": [
+                    "Maria Casanovas NV Glaç Brut Nature Sparkling (Cava)",
+                    "Maria Casanovas NV GLAÇ Brut Nature Sparkling (Cava)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Maria Casanovas NV Glaç Brut Nature Sparkling (Cava)"
+            },
+            {
+                "from": [
+                    "Holman Ranch 2010 Hunter's Cuvee Pinot Noir (Carmel Valley)",
+                    "Holman Ranch 2010 Hunter's Cuvée Pinot Noir (Carmel Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Holman Ranch 2010 Hunter's Cuvee Pinot Noir (Carmel Valley)"
+            },
+            {
+                "from": [
+                    "Domaine de Ménard 2015 Gros Manseng Moelleux Gros Manseng (Côtes de Gascogne)",
+                    "Domaine de Ménard 2015 Moelleux Gros Manseng (Côtes de Gascogne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Domaine de Ménard 2015 Gros Manseng Moelleux Gros Manseng (Côtes de Gascogne)"
+            },
+            {
+                "from": [
+                    "Gosset NV Grand Rosé Brut  (Champagne)",
+                    "Gosset NV Grand Brut Rosé  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Gosset NV Grand Rosé Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Taittinger NV Prestige Rosé Brut  (Champagne)",
+                    "Taittinger NV Prestige Brut Rosé  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Taittinger NV Prestige Rosé Brut  (Champagne)"
+            },
+            {
+                "from": [
+                    "Forget-Brimont NV Blanc de Blancs Premier Cru Brut Chardonnay (Champagne)",
+                    "Forget-Brimont NV Brut Blanc de Blancs Premier Cru Chardonnay (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Forget-Brimont NV Blanc de Blancs Premier Cru Brut Chardonnay (Champagne)"
+            },
+            {
+                "from": [
+                    "Ricci Curbastro NV Brut Rosé Sparkling (Franciacorta)",
+                    "Ricci Curbastro NV Rosè Brut Sparkling (Franciacorta)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Ricci Curbastro NV Brut Rosé Sparkling (Franciacorta)"
+            },
+            {
+                "from": [
+                    "Lauren Ashton Cellars 2012 Semillon (Columbia Valley (WA))",
+                    "Lauren Ashton Cellars 2012 Sémillon (Columbia Valley (WA))"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Lauren Ashton Cellars 2012 Semillon (Columbia Valley (WA))"
+            }
+        ],
+        "description": "Mass edit cells in column title"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "title",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "Poças NV 10 Years Old Tawny  (Port)",
+                    "Poças NV 10-Years-Old Tawny  (Port)",
+                    "Poças NV 10-years old Tawny  (Port)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Poças NV 10 Years Old Tawny  (Port)"
+            },
+            {
+                "from": [
+                    "Poças NV 20 Years Old Tawny  (Port)",
+                    "Poças NV 20-Years-Old Tawny  (Port)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Poças NV 20 Years Old Tawny  (Port)"
+            },
+            {
+                "from": [
+                    "Clos La Chance 2012 Murphy's Choice Pinot Noir (Santa Cruz Mountains)",
+                    "Clos LaChance 2012 Murphy's Choice Pinot Noir (Santa Cruz Mountains)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Clos La Chance 2012 Murphy's Choice Pinot Noir (Santa Cruz Mountains)"
+            },
+            {
+                "from": [
+                    "Prager NV Noble Companion 10-Year-Old Tawny Port (Napa Valley)",
+                    "Prager NV Noble Companion 10 Year Old Tawny Port (Napa Valley)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Prager NV Noble Companion 10-Year-Old Tawny Port (Napa Valley)"
+            },
+            {
+                "from": [
+                    "Domaine Jacques Prieur 2009 Champs Pimont Premier Cru  (Beaune)",
+                    "Domaine Jacques Prieur 2009 Champs-Pimont Premier Cru  (Beaune)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Domaine Jacques Prieur 2009 Champs Pimont Premier Cru  (Beaune)"
+            },
+            {
+                "from": [
+                    "Château Bel Air 2012  Bordeaux Supérieur",
+                    "Château Bel-Air 2012  Bordeaux Supérieur"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Château Bel Air 2012  Bordeaux Supérieur"
+            },
+            {
+                "from": [
+                    "Force Majeure 2011 Collaboration Series II Ciel du Cheval Vineyard Syrah (Red Mountain)",
+                    "Force Majeure 2011 Collaboration Series III Ciel du Cheval Vineyard Syrah (Red Mountain)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Force Majeure 2011 Collaboration Series II Ciel du Cheval Vineyard Syrah (Red Mountain)"
+            },
+            {
+                "from": [
+                    "Bertrand-Delespierre NV Elixir Dix Vins Premier Cru Demi Sec  (Champagne)",
+                    "Bertrand-Delespierre NV Elixir Dix Vins Premier Cru Demi-Sec  (Champagne)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Bertrand-Delespierre NV Elixir Dix Vins Premier Cru Demi Sec  (Champagne)"
+            },
+            {
+                "from": [
+                    "Chehalem 2010 RR Ridgecrest Vineyards Pinot Noir (Ribbon Ridge)",
+                    "Chehalem 2010 Ridgecrest Vineyards Pinot Noir (Ribbon Ridge)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Chehalem 2010 RR Ridgecrest Vineyards Pinot Noir (Ribbon Ridge)"
+            },
+            {
+                "from": [
+                    "Clos LaChance 2013 Reserve Grenache (Central Coast)",
+                    "Clos La Chance 2013 Reserve Grenache (Central Coast)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Clos LaChance 2013 Reserve Grenache (Central Coast)"
+            },
+            {
+                "from": [
+                    "Perlage NV Canah Brut  (Valdobbiadene Prosecco Superiore)",
+                    "Perlage NV Canah Bio Brut  (Valdobbiadene Prosecco Superiore)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Perlage NV Canah Brut  (Valdobbiadene Prosecco Superiore)"
+            },
+            {
+                "from": [
+                    "Warre's NV Otima 10-Year-Old Tawny  (Port)",
+                    "Warre's NV Otima 10-year old Tawny  (Port)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Warre's NV Otima 10-Year-Old Tawny  (Port)"
+            },
+            {
+                "from": [
+                    "Barros NV 20-Years Old Tawny  (Port)",
+                    "Barros NV 20-Years-Old Tawny  (Port)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Barros NV 20-Years Old Tawny  (Port)"
+            }
+        ],
+        "description": "Mass edit cells in column title"
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "Column",
+        "description": "Remove column Column"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "country",
+        "expression": "join ([coalesce(cells['country'].value,'<null>'),coalesce(cells['description'].value,'<null>'),coalesce(cells['designation'].value,'<null>'),coalesce(cells['points'].value,'<null>'),coalesce(cells['price'].value,'<null>'),coalesce(cells['province'].value,'<null>'),coalesce(cells['region_1'].value,'<null>'),coalesce(cells['region_2'].value,'<null>'),coalesce(cells['taster_name'].value,'<null>'),coalesce(cells['taster_twitter_handle'].value,'<null>'),coalesce(cells['title'].value,'<null>'),coalesce(cells['variety'].value,'<null>'),coalesce(cells['winery'].value,'<null>')],'<>')",
+        "onError": "keep-original",
+        "newColumnName": "row_string",
+        "columnInsertIndex": 1,
+        "description": "Create column row_string at index 1 based on column country using expression join ([coalesce(cells['country'].value,'<null>'),coalesce(cells['description'].value,'<null>'),coalesce(cells['designation'].value,'<null>'),coalesce(cells['points'].value,'<null>'),coalesce(cells['price'].value,'<null>'),coalesce(cells['province'].value,'<null>'),coalesce(cells['region_1'].value,'<null>'),coalesce(cells['region_2'].value,'<null>'),coalesce(cells['taster_name'].value,'<null>'),coalesce(cells['taster_twitter_handle'].value,'<null>'),coalesce(cells['title'].value,'<null>'),coalesce(cells['variety'].value,'<null>'),coalesce(cells['winery'].value,'<null>')],'<>')"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "row_string",
+        "expression": "grel:value.md5()",
+        "onError": "set-to-blank",
+        "newColumnName": "row_hash",
+        "columnInsertIndex": 2,
+        "description": "Create column row_hash at index 2 based on column row_string using expression grel:value.md5()"
+    },
+    {
+        "op": "core/row-reorder",
+        "mode": "row-based",
+        "sorting": {
+            "criteria": [
+                {
+                    "valueType": "string",
+                    "column": "row_hash",
+                    "blankPosition": 2,
+                    "errorPosition": 1,
+                    "reverse": false,
+                    "caseSensitive": false
+                }
+            ]
+        },
+        "description": "Reorder rows"
+    },
+    {
+        "op": "core/blank-down",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "row_hash",
+        "description": "Blank down cells in column row_hash"
+    },
+    {
+        "op": "core/row-removal",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "row_hash",
+                    "expression": "isBlank(value)",
+                    "columnName": "row_hash",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": true,
+                                "l": "true"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "description": "Remove rows"
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "row_string",
+        "description": "Remove column row_string"
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "row_hash",
+        "description": "Remove column row_hash"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_2",
+        "expression": "jython:return value.replace(u\"\\u00A0\", \" \")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_2 using expression jython:return value.replace(u\"\\u00A0\", \" \")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "designation",
+        "expression": "jython:return value.replace(u\"\\u00A0\", \" \")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column designation using expression jython:return value.replace(u\"\\u00A0\", \" \")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_1",
+        "expression": "jython:return value.replace(u\"\\u00A0\", \" \")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_1 using expression jython:return value.replace(u\"\\u00A0\", \" \")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "province",
+        "expression": "jython:return value.replace(u\"\\u00A0\", \" \")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column province using expression jython:return value.replace(u\"\\u00A0\", \" \")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "description",
+        "expression": "jython:return value.replace(u\"\\u00A0\", \" \")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column description using expression jython:return value.replace(u\"\\u00A0\", \" \")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "country",
+        "expression": "jython:return value.replace(u\"\\u00A0\", \" \")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column country using expression jython:return value.replace(u\"\\u00A0\", \" \")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "winery",
+        "expression": "jython:return value.replace(u\"\\u00A0\", \" \")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column winery using expression jython:return value.replace(u\"\\u00A0\", \" \")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "variety",
+        "expression": "jython:return value.replace(u\"\\u00A0\", \" \")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column variety using expression jython:return value.replace(u\"\\u00A0\", \" \")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "title",
+        "expression": "jython:return value.replace(u\"\\u00A0\", \" \")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column title using expression jython:return value.replace(u\"\\u00A0\", \" \")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_twitter_handle",
+        "expression": "jython:return value.replace(u\"\\u00A0\", \" \")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_twitter_handle using expression jython:return value.replace(u\"\\u00A0\", \" \")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_name",
+        "expression": "jython:return value.replace(u\"\\u00A0\", \" \")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_name using expression jython:return value.replace(u\"\\u00A0\", \" \")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "country",
+        "expression": "jython:return value.replace(u\"\\u2019\", \"'\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column country using expression jython:return value.replace(u\"\\u2019\", \"'\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_1",
+        "expression": "jython:return value.replace(u\"\\u2019\", \"'\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_1 using expression jython:return value.replace(u\"\\u2019\", \"'\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "province",
+        "expression": "jython:return value.replace(u\"\\u2019\", \"'\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column province using expression jython:return value.replace(u\"\\u2019\", \"'\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "description",
+        "expression": "jython:return value.replace(u\"\\u2019\", \"'\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column description using expression jython:return value.replace(u\"\\u2019\", \"'\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "title",
+        "expression": "jython:return value.replace(u\"\\u2019\", \"'\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column title using expression jython:return value.replace(u\"\\u2019\", \"'\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_twitter_handle",
+        "expression": "jython:return value.replace(u\"\\u2019\", \"'\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_twitter_handle using expression jython:return value.replace(u\"\\u2019\", \"'\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_name",
+        "expression": "jython:return value.replace(u\"\\u2019\", \"'\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_name using expression jython:return value.replace(u\"\\u2019\", \"'\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_2",
+        "expression": "jython:return value.replace(u\"\\u2019\", \"'\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_2 using expression jython:return value.replace(u\"\\u2019\", \"'\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "designation",
+        "expression": "jython:return value.replace(u\"\\u2019\", \"'\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column designation using expression jython:return value.replace(u\"\\u2019\", \"'\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "winery",
+        "expression": "jython:return value.replace(u\"\\u2019\", \"'\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column winery using expression jython:return value.replace(u\"\\u2019\", \"'\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "variety",
+        "expression": "jython:return value.replace(u\"\\u2019\", \"'\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column variety using expression jython:return value.replace(u\"\\u2019\", \"'\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "country",
+        "expression": "jython:return value.replace(u\"\\u2013\", \"-\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column country using expression jython:return value.replace(u\"\\u2013\", \"-\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "designation",
+        "expression": "jython:return value.replace(u\"\\u2013\", \"-\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column designation using expression jython:return value.replace(u\"\\u2013\", \"-\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_1",
+        "expression": "jython:return value.replace(u\"\\u2013\", \"-\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_1 using expression jython:return value.replace(u\"\\u2013\", \"-\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "description",
+        "expression": "jython:return value.replace(u\"\\u2013\", \"-\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column description using expression jython:return value.replace(u\"\\u2013\", \"-\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "province",
+        "expression": "jython:return value.replace(u\"\\u2013\", \"-\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column province using expression jython:return value.replace(u\"\\u2013\", \"-\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "variety",
+        "expression": "jython:return value.replace(u\"\\u2013\", \"-\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column variety using expression jython:return value.replace(u\"\\u2013\", \"-\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "title",
+        "expression": "jython:return value.replace(u\"\\u2013\", \"-\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column title using expression jython:return value.replace(u\"\\u2013\", \"-\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_twitter_handle",
+        "expression": "jython:return value.replace(u\"\\u2013\", \"-\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_twitter_handle using expression jython:return value.replace(u\"\\u2013\", \"-\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_name",
+        "expression": "jython:return value.replace(u\"\\u2013\", \"-\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_name using expression jython:return value.replace(u\"\\u2013\", \"-\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_2",
+        "expression": "jython:return value.replace(u\"\\u2013\", \"-\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_2 using expression jython:return value.replace(u\"\\u2013\", \"-\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "winery",
+        "expression": "jython:return value.replace(u\"\\u2013\", \"-\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column winery using expression jython:return value.replace(u\"\\u2013\", \"-\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "points",
+        "expression": "value.toNumber()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column points using expression value.toNumber()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "price",
+        "expression": "value.toNumber()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column price using expression value.toNumber()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "country",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column country using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "designation",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column designation using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_2",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_2 using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_1",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_1 using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "description",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column description using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "province",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column province using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "winery",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column winery using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "variety",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column variety using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "title",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column title using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_twitter_handle",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_twitter_handle using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_name",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_name using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "country",
+        "expression": "value.replace(/\\s+/,' ')",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column country using expression value.replace(/\\s+/,' ')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "designation",
+        "expression": "value.replace(/\\s+/,' ')",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column designation using expression value.replace(/\\s+/,' ')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_1",
+        "expression": "value.replace(/\\s+/,' ')",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_1 using expression value.replace(/\\s+/,' ')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_2",
+        "expression": "value.replace(/\\s+/,' ')",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_2 using expression value.replace(/\\s+/,' ')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "province",
+        "expression": "value.replace(/\\s+/,' ')",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column province using expression value.replace(/\\s+/,' ')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "variety",
+        "expression": "value.replace(/\\s+/,' ')",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column variety using expression value.replace(/\\s+/,' ')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "title",
+        "expression": "value.replace(/\\s+/,' ')",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column title using expression value.replace(/\\s+/,' ')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "description",
+        "expression": "value.replace(/\\s+/,' ')",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column description using expression value.replace(/\\s+/,' ')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_twitter_handle",
+        "expression": "value.replace(/\\s+/,' ')",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_twitter_handle using expression value.replace(/\\s+/,' ')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_name",
+        "expression": "value.replace(/\\s+/,' ')",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_name using expression value.replace(/\\s+/,' ')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "winery",
+        "expression": "value.replace(/\\s+/,' ')",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column winery using expression value.replace(/\\s+/,' ')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "country",
+        "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column country using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "designation",
+        "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column designation using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_1",
+        "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_1 using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "province",
+        "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column province using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "region_2",
+        "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column region_2 using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "title",
+        "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column title using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "variety",
+        "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column variety using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_twitter_handle",
+        "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_twitter_handle using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "taster_name",
+        "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column taster_name using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "description",
+        "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column description using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "winery",
+        "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column winery using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+    }
+]

@@ -3,10 +3,10 @@ app/*
 !app/*.py
 !app/data
 app/data/*
-!app/data/*.csv
+!app/data/*clean.csv
 !app/recipe
 app/recipe/*
-!app/recipe/*.json
+!app/recipe/*recipe.json
 *.DS_Store
 
 # *data/
