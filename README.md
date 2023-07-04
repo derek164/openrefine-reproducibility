@@ -20,12 +20,17 @@ git clone https://github.com/derek164/openrefine-reproducibility.git && cd openr
 
 Start OpenRefine server and client
 ```
-docker compose up
+make start
 ```
 
 Execute OpenRefine workflow
 ```
-docker-compose run --rm -it --entrypoint python openrefine-client /app/main.py
+make run
+```
+
+Clean up resources
+```
+make stop
 ```
 
 ## Data
