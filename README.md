@@ -7,7 +7,6 @@ Based on [nikolausn/OpenRefine-Reproducibility-Demo](https://github.com/nikolaus
     - [Assumptions](#assumptions)
     - [ER Diagram](#er-diagram)
 
-
 ## Dependencies
 [Docker](https://www.docker.com/products/docker-desktop/)
 
