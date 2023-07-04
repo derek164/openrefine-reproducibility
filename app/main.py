@@ -170,4 +170,4 @@ if __name__ == "__main__":
     refine_helper = RefineServerHelper(refine_server)
 
     apply_wine_recipe(refine_helper)
-    apply_airbnb_recipe(refine_helper)
+    # apply_airbnb_recipe(refine_helper)    # test
