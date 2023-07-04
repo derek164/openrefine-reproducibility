@@ -64,7 +64,8 @@ class RefineServerHelper:
         print(
             "OpenRefine Project '{}' opened, access using active_project property".format(
                 project_name
-            )
+            ),
+            end="\n\n",
         )
         return self.active_project
 
@@ -107,13 +108,36 @@ class RefineServerHelper:
     # def cluster(self,column_name,cluster_type="binning",function=None,params=None):
     #     return pd.DataFrame(drug_project.compute_clusters(column_name,cluster_type,function,params))
 
+    def display_project_summary(self):
+        self.display_fields()
+        self.display_dimensions()
+        self.display_row()
+    
+    def display_fields(self):
+        print(
+            "Fields: {}".format(
+                [x.encode("utf-8") for x in self.active_project.columns]
+            )
+        )
+
+    def display_dimensions(self):
+        print(
+            "Dimensions: [{rows}, {cols}]".format(
+                rows=self.get_number_rows(),
+                cols=self.get_number_columns(),
+            ),
+            end="\n\n",
+        )
+
+    def display_row(self):
+        print(self.get_rows(start=0, limit=1).iloc[0].to_string(), end="\n\n")
+
 
 if __name__ == "__main__":
     print(refine.RefineServer().get_version(), end="\n\n")
 
     refine_server = refine.Refine(refine.RefineServer())
     refine_helper = RefineServerHelper(refine_server)
-    # print(refine_helper.list_projects().to_string(), end="\n\n")
 
     refine_helper.delete_project_byname("wine")
     wine_project = refine_server.new_project(
@@ -122,13 +146,18 @@ if __name__ == "__main__":
 
     # print(refine_helper.search_projects("wine").iloc[0].to_string(), end="\n\n")
     refine_helper.open_project_byname("wine")
-    print("Fields: {}".format([x.encode("utf-8") for x in wine_project.columns]))
-    print(
-        "Dimensions: [{rows}, {cols}]".format(
-            rows=refine_helper.get_number_rows(),
-            cols=refine_helper.get_number_columns(),
-        ),
-        end="\n\n",
+    refine_helper.display_project_summary()
+
+    refine_helper.delete_project_byname("airbnb")
+    airbnb_project = refine_server.new_project(
+        project_file="/app/data/airbnb_dirty.csv", project_name="airbnb", separator=","
     )
 
-    print(refine_helper.get_rows(start=0, limit=1).iloc[0].to_string(), end="\n\n")
+    # print(refine_helper.search_projects("airbnb").iloc[0].to_string(), end="\n\n")
+    refine_helper.open_project_byname("airbnb")
+    refine_helper.display_project_summary()
+
+    airbnb_project.apply_operations("/app/recipe/airbnb_recipe.json")
+    with open("/app/data/airbnb_clean.csv", "wb") as f:
+        f.write(airbnb_project.export(export_format="csv").read())
+
