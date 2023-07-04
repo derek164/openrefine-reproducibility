@@ -36,4 +36,6 @@ docker-compose run --rm -it --entrypoint python openrefine-client /app/main.py
 2. Each wine is made with grapes from one location of varying specificity, from country to vineyard
 
 ### ER Diagram
-<img src='img/ER_Wine_Reviews.svg' width='600'>
+<p align='center'>
+    <img src='img/ER_Wine_Reviews.svg' width='700'>
+</p>
