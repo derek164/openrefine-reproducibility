@@ -23,7 +23,7 @@ docker-compose run --rm -it --entrypoint python openrefine-client /app/main.py
 [Wine reviews](https://www.kaggle.com/datasets/zynicide/wine-reviews) scraped from WineEnthusiast. 
 
 ### ER Diagram
-![ER Diagram](img/ER_Wine_Reviews.png)
+![ER Diagram](img/ER_Wine_Reviews.png | width=300)
 
 ### Assumptions
 1. Not all wineries make their wine from grapes which they grew or sourced from a local vineyard
