@@ -112,7 +112,7 @@ class RefineServerHelper:
         self.display_fields()
         self.display_dimensions()
         self.display_row()
-    
+
     def display_fields(self):
         print(
             "Fields: {}".format(
@@ -160,4 +160,3 @@ if __name__ == "__main__":
     airbnb_project.apply_operations("/app/recipe/airbnb_recipe.json")
     with open("/app/data/airbnb_clean.csv", "wb") as f:
         f.write(airbnb_project.export(export_format="csv").read())
-
