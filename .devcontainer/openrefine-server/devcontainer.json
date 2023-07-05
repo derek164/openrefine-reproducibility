@@ -1,0 +1,9 @@
+{
+    "name": "openrefine-server",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "openrefine-server",
+    "workspaceFolder": "/workspace",
+    "forwardPorts": [
+        3333
+    ]
+}
