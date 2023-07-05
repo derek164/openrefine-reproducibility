@@ -1,0 +1,10 @@
+{
+    "name": "OpenRefine",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "openrefine-server",
+    "workspaceFolder": "/app",
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    "forwardPorts": [
+        3333
+    ]
+}
