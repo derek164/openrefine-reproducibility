@@ -1,6 +1,0 @@
-{
-    "name": "openrefine-client",
-    "dockerComposeFile": "docker-compose.yml",
-    "service": "openrefine-client",
-    "workspaceFolder": "/workspace"
-}
