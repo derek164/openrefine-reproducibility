@@ -3,7 +3,7 @@ app/*
 !app/*.py
 !app/data
 app/data/*
-!app/data/*clean.csv
+!app/data/*dirty.csv
 !app/recipe
 app/recipe/*
 !app/recipe/*recipe.json
