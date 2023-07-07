@@ -36,19 +36,30 @@ conn.register("wine_clean", wine_clean)
 results = conn.execute(
     """
     SELECT country
-        , avg(points) as sample_mean
-        , avg(points) - 1.96 * stddev_pop(points) / sqrt(count(*)) as lower_95
-        , avg(points) + 1.96 * stddev_pop(points) / sqrt(count(*)) as upper_95
-        , count(*) as sample_size
-    FROM wine_clean
+        , COUNT(DISTINCT variety) AS num_varieties
+    FROM wine_dirty
+    WHERE country IS NOT NULL
+        AND variety IS NOT NULL
     GROUP BY country
-    HAVING count(*) > 30
-    ORDER BY avg(points) - 1.96 * stddev_pop(points) / sqrt(count(*)) DESC
+    ORDER BY COUNT(DISTINCT variety) DESC
 """
 ).df()
 print(results.to_string())
 
-print()
+# results = conn.execute(
+#     """
+#     SELECT country
+#         , avg(points) as sample_mean
+#         , avg(points) - 1.96 * stddev_pop(points) / sqrt(count(*)) as lower_95
+#         , avg(points) + 1.96 * stddev_pop(points) / sqrt(count(*)) as upper_95
+#         , count(*) as sample_size
+#     FROM wine_clean
+#     GROUP BY country
+#     HAVING count(*) > 30
+#     ORDER BY avg(points) - 1.96 * stddev_pop(points) / sqrt(count(*)) DESC
+# """
+# ).df()
+# print(results.to_string())
 
 results = conn.execute(
     """
@@ -64,30 +75,3 @@ results = conn.execute(
 """
 ).df()
 print(results.to_string())
-
-# results = conn.execute(
-#     """
-#     SELECT clean.country as country
-#         , clean.median_score as clean_median_score
-#         , dirty.median_score as dirty_median_score
-#         , clean.count as clean_count
-#         , dirty.count as dirty_count
-#     FROM (
-#         SELECT country
-#             , median(points) as median_score
-#             , count(*) as count
-#         FROM wine_clean
-#         GROUP BY country
-#     ) as clean
-#     JOIN (
-#         SELECT country
-#             , median(points) as median_score
-#             , count(*) as count
-#         FROM wine_dirty
-#         GROUP BY country
-#     ) as dirty
-#     ON clean.country = dirty.country
-#     ORDER BY clean.median_score DESC
-# """
-# ).df()
-# print(results.to_string())
