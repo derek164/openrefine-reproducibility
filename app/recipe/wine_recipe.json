@@ -1424,11 +1424,6 @@
         "description": "Mass edit cells in column title"
     },
     {
-        "op": "core/column-removal",
-        "columnName": "Column",
-        "description": "Remove column Column"
-    },
-    {
         "op": "core/column-addition",
         "engineConfig": {
             "facets": [],
