@@ -7,5 +7,5 @@
     // List of ports that you want to preview
     "forwardPorts": [3333],
     // Automatically start the app in subsequent sessions
-    "postStartCommand": "make start"
+    "postStartCommand": "dockerd && make start"
 }
