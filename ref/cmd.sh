@@ -21,3 +21,9 @@ docker buildx build --platform linux/amd64,linux/arm64 -f ref/Dockerfile -t dere
 
 docker system prune -f
 rm -rf app/data/*.project app/data/workspace*.json app/data/dbextension
+
+pip  install or2ywtool
+or2yw -i app/recipe/wine_recipe.json -o app/workflow/wine_recipe_linear.yw
+or2yw -i app/recipe/wine_recipe.json -o app/workflow/wine_recipe_linear.png -ot png
+or2yw -i app/recipe/wine_recipe.json -o app/workflow/wine_recipe_parallel.yw -t parallel
+or2yw -i app/recipe/wine_recipe.json -o app/workflow/wine_recipe_parallel.png -ot png -t parallel
